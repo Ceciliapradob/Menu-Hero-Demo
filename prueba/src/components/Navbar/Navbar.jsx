@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+
 const Navbar = () => {
     const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
     const subMenuRef = useRef(null);
@@ -59,7 +60,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-right">
-                    <a href="#" className="consultation">Free Consultation <i className="fas fa-arrow-right"></i></a>
+                    <a href="https://www.linkedin.com/in/cecilia-prado-29601521b/" className="consultation">Free Consultation <i className="fas fa-arrow-right"></i></a>
                 </div>
             </nav>
         </header>

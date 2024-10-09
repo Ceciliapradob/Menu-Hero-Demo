@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; // Solo una vez
 
+
 const Hero = () => {
     const [formData, setFormData] = useState({
         name: '',

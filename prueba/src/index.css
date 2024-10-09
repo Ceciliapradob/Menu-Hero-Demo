@@ -84,7 +84,7 @@ header {
   font-size: 1rem;
 }
 
-/*SUB MENU*/
+/* Sub Menu */
 .sub-menu {
   display: none; 
   position: absolute;
@@ -111,17 +111,13 @@ header {
   background-color: #f0f0f0; 
 }
 
-
-
-/*HERO*/
-
-/* General Reset */
+/* Hero Section */
 .hero {
   display: flex;
   height: 100vh;
 }
 
-/* Left side of hero */
+/* Left Side of Hero */
 .hero-left {
   flex: 1;
   background-color: #022942;
@@ -130,7 +126,6 @@ header {
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-
   font-family: 'Inter', sans-serif;
 }
 
@@ -155,7 +150,6 @@ h1 {
   font-family: 'Neue Haas', sans-serif;
   font-size: 2.5rem;
   margin-bottom: 60px;
-
   line-height: 1.2;
 }
 
@@ -163,10 +157,7 @@ h1 .underline {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   text-decoration-color: #0366d6;
-  /* Ajusta este valor según sea necesario */
-
 }
-
 
 .separator {
   display: block;
@@ -200,7 +191,7 @@ p {
   gap: 10px;
 }
 
-/* Right side of hero */
+/* Right Side of Hero */
 .hero-right {
   flex: 1;
   background: url(./images/fondo1.jpg) center center / cover no-repeat; /* Cambia a ./images si está en la misma carpeta */
@@ -210,12 +201,9 @@ p {
   align-items: center;
 }
 
-
-
 .form-container {
   background-color: white;
   padding: 45px 25px;
-
   width: 55%;
   height: 57%;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -251,19 +239,14 @@ h3 {
   border: 1px solid rgb(235, 223, 223);
   border-radius: 5px;
   background: none;
-
-
 }
 
 /* Estilizar el texto de los placeholders */
-.hero-form .form-input::placeholder{
+.hero-form .form-input::placeholder {
   color: #022942;
   font-weight: 800;
   opacity: 1;
 }
-
-
-
 
 .hero-form .form-message {
   width: 100%;
@@ -275,12 +258,11 @@ h3 {
   margin-bottom: 20px;
 }
 
-
 .hero-form textarea::placeholder {
   color: #022942;
   font-weight: bold;
-  /* opacity: 1; */
 }
+
 .submit-btn-form {
   background: none;
   border: 3px solid #022942;
@@ -293,25 +275,29 @@ h3 {
   cursor: pointer;
 }
 
-/*ANIMACIONES EN BOTONES*/
-.contact-btn, .consultation-btn {
+/* Animaciones en Botones */
+.contact-btn,
+.consultation-btn {
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Efecto hover */
-.contact-btn:hover, .consultation-btn:hover, .submit-btn-form:hover  {
-  background-color:  #022942; 
+/* Efecto Hover */
+.contact-btn:hover,
+.consultation-btn:hover,
+.submit-btn-form:hover {
+  background-color: #022942; 
   color: white; 
   transform: scale(1.05);
 }
 
-/* Efecto de clic */
-.welcome-btn:active, .contact-btn:active, .consultation-btn:active {
+/* Efecto de Clic */
+.welcome-btn:active,
+.contact-btn:active,
+.consultation-btn:active {
   transform: scale(0.95);
 }
 
-
-/*MENSAJE DE ERRORES O EXITO*/
+/* Mensaje de Errores o Éxito */
 .form-message {
   margin-top: 3%;
   font-size: 14px;
@@ -326,144 +312,89 @@ h3 {
   color: red;
 }
 
-
-
 /* Tablet (max-width: 768px) */
 @media (max-width: 768px) {
   .hero {
-      flex-direction: column;
-      height: auto;
+    flex-direction: column;
+    height: auto;
   }
 
   .hero-left,
   .hero-right {
-      flex: none;
-      width: 100%;
-      padding: 25px;
+    flex: none;
+    width: 100%;
+    padding: 25px;
   }
 
   .containerContent,
   .form-container {
-      margin-top: 3%;
-      margin-bottom: 4%;
+    margin-top: 3%;
+    margin-bottom: 4%;
   }
 
   h1 {
-      font-size: 2rem;
-      margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
   }
 
   p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
-
 
   .welcome-btn,
   .contact-btn {
-      width: 180px;
-      padding: 8px 0;
-      font-size: 0.9rem;
+    width: 180px;
+    padding: 8px 0;
+    font-size: 0.9rem;
   }
 
   .contact-btn {
-      padding: 8px 10px;
-
+    padding: 8px 10px;
   }
 
-
   .form-container {
-      width: 80%;
-      padding: 30px;
-      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    padding: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   }
 
   .consultation-btn,
   .submit-btn {
-      font-size: 0.9rem;
-      padding: 12px;
+    font-size: 0.9rem;
+    padding: 12px;
   }
 
   .hero-form .form-input,
   .hero-form .form-message {
-      padding: 10px;
-      font-size: 0.9rem;
+    padding: 10px;
+    font-size: 0.9rem;
   }
 
   .navbar {
-      flex-direction: column;
-  }
-
-  .menu-items {
-      display: none;
-      /* Se oculta en tablet */
-  }
-
-  .navbar-left {
-      justify-content: space-between;
-      width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .navbar-right {
-      width: 100%;
-      display: flex;
-      justify-content: center;
+    margin-top: 10px;
   }
 
-  .separator {
-      margin-top: 20px;
+  .menu-items {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-/* Mobile (max-width: 468px) */
-@media (max-width: 600px) {
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
   h1 {
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-  }
-
-  p {
-      font-size: 0.8rem;
+    font-size: 1.5rem;
   }
 
   .welcome-btn,
   .contact-btn {
-      width: 160px;
-      padding: 6px 0;
-      font-size: 0.8rem;
-  }
-
-  .form-container {
-
-      width: 100%;
-      padding: 20px;
-      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .form-row {
-      flex-direction: column;
-  }
-
-  .consultation-btn,
-  .submit-btn {
-      font-size: 0.8rem;
-      padding: 10px;
-  }
-
-  .hero-form .form-input,
-  .hero-form .form-message {
-      padding: 8px;
-      font-size: 0.8rem;
-  }
-
-  .navbar-left {
-      justify-content: space-between;
-  }
-
-  .navbar-right {
-      justify-content: center;
-  }
-
-  .separator {
-      margin-top: 15px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
   }
 }
