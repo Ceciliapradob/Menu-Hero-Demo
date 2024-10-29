@@ -23,9 +23,11 @@ Para levantar el servidor y ejecutar el proyecto, sigue estos pasos:
    npm install
 
 2. **Acceder al directorio del proyecto**:
+    ```bash
     cd prueba
 
 3. **Ejecutar el servidor de desarrollo**
+    ```bash
     npm run dev 
 
 
