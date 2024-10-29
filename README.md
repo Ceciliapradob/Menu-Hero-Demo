@@ -1,3 +1,4 @@
+![heroEmpresa](https://github.com/user-attachments/assets/6b2120b2-d9c5-482e-80a1-bb6e08d6b4be)
 # Proyecto de Clonación de la Referencia proporcionada para evaluación técnica
 
 Este proyecto es una clonación de la referencia de la empresa Demo, diseñado para ofrecer una experiencia similar a la del sitio web original. El enfoque principal está en un menú de navegación funcional y un hero atractivo.
